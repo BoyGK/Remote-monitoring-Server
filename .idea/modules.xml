@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Remote-monitoring-Server.iml" filepath="$PROJECT_DIR$/.idea/Remote-monitoring-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerWayFX.iml" filepath="$PROJECT_DIR$/ServerWayFX.iml" />
     </modules>
   </component>
 </project>

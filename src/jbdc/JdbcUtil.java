@@ -8,8 +8,8 @@ import java.sql.*;
 public class JdbcUtil {
 
     private static final String driver = "com.mysql.jdbc.Driver";
-    private static final String dbName = "";
-    private static final String passWord = "root";
+    private static final String dbName = "lstudy";
+    private static final String passWord = "";
     private static final String userName = "root";
     private static final String url = "jdbc:mysql://localhost:3306/"
             + dbName + "?useUnicode=true&characterEncoding=UTF-8";
