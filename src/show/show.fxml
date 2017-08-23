@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="600.0" prefWidth="1002.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="show.ShowController">
+
+    <ImageView fx:id="imageview" fitHeight="600" fitWidth="800"/>
+
+    <Button AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="0" layoutX="800" layoutY="550"
+            prefWidth="200" prefHeight="50" text="退出" fx:id="signout"/>
+
+    <Button AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="50" layoutX="800" layoutY="500"
+            prefWidth="200" prefHeight="50" text="用户管理" fx:id="setting"/>
+
+    <Button AnchorPane.rightAnchor="0" AnchorPane.bottomAnchor="100" layoutX="800" layoutY="400"
+            prefWidth="200" prefHeight="50" text="警告" fx:id="jg"/>
+
+    <ListView AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="150" layoutX="800.0"
+              prefHeight="450.0" prefWidth="200.0" fx:id="listview"/>
+
+</AnchorPane>

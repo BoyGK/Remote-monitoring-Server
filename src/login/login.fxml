@@ -1,0 +1,33 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.CheckBox?>
+<GridPane xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10" prefHeight="500" prefWidth="800">
+
+    <Text text="Welcome you, administrator." GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2"/>
+
+    <Text text="" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="2"/>
+
+    <Label text="UserName:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+
+    <TextField fx:id="username" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+    <Label text="PassWord:" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+
+    <PasswordField fx:id="passw" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+
+    <Text fx:id="hint" text="" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <HBox spacing="10" alignment="bottom_right" GridPane.columnIndex="1" GridPane.rowIndex="5">
+        <Button fx:id="login" maxWidth="100" maxHeight="40" text="Sign in"/>
+        <Button fx:id="logout" maxWidth="100" maxHeight="40" text="Sign out"/>
+    </HBox>
+
+    <CheckBox fx:id="cb" text="指定ip范围" GridPane.rowIndex="5" />
+
+</GridPane>
